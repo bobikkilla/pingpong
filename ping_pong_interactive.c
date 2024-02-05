@@ -88,23 +88,6 @@ void game() {
 
         delay(100000);
         
-    /*   switch(input) {     // расчёт движения ракеток 
-            case 1:
-                if (left_rak_pos < 25) left_rak_pos++;
-                break;
-            case 2:
-                if (left_rak_pos > 3) left_rak_pos--;
-                break;
-            case 3:
-                if (right_rak_pos < 25) right_rak_pos++;
-                break;
-            case 4:
-                if (right_rak_pos > 3) right_rak_pos--;
-                break;
-            case 0:
-                break;
-        }   */
-
         
         ball_x = ball_x + ball_dir_x;
         ball_y = ball_y + ball_dir_y;   // считаю положение мяча
